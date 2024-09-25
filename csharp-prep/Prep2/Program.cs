@@ -5,22 +5,24 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("What is your % grade in the class? ");
-        int grade = Console.ReadLine();
-        string letter = "Not a grade, try again."
+        string grade = Console.ReadLine();
+        int gradeP = int.Parse(grade);
 
-        if (grade >= 90)
+        string letter = "Not a grade, try again.";
+
+        if (gradeP >= 90)
         {
             letter = "A";
         }
-        else if (90 > grade >= 80)
+        else if (gradeP >= 80)
         {
             letter = "B";
         }
-        else if (80 > grade >= 70)
+        else if (gradeP >= 70)
         {
             letter = "C";
         }
-        else if (70 > grade >= 60)
+        else if (gradeP >= 60)
         {
             letter = "D";
         }
@@ -31,7 +33,7 @@ class Program
 
         Console.WriteLine($"Your grade is {letter}");
         
-        if (grade >= 70)
+        if (gradeP >= 70)
         {
             Console.WriteLine($"Congrats! You passed the class.");
         }
