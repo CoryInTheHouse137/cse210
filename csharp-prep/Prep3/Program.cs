@@ -28,10 +28,6 @@ class Program
         }
 
         Console.WriteLine("Correct!");
-  
-        
-
-
 
 
     }
