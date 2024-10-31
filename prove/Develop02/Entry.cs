@@ -1,12 +1,17 @@
 public class Entry
 {
     
-    public string _userEntry{ get; set; }
-    public DateTime _timeStamp{ get; set; }
+    public string _userEntry;
+    public DateTime _timeStamp;
 
-    public Entry(string arg_userEntry)
+    public string _promptHolder;
+
+    public Entry(string arg_userEntry, string arg_promptHolder)
     {
+
         _userEntry = arg_userEntry;
+
+        _promptHolder = arg_promptHolder;
 
         _timeStamp = DateTime.Now; //captures time of entry
     }
