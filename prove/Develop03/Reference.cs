@@ -27,7 +27,7 @@ public class Reference
         _verseEnd = verseEnd;
     }
 
-    public string referencer()
+    public string Referencer()
     {    
         if (_verseEnd != null)
         {

@@ -13,9 +13,9 @@ public class Word
 
     
 
-    public void GetterWord()
+    public string GetterWord()
     {
-        // foreach()
+        return _word;
     }
 
 }
