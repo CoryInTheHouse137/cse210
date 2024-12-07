@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello FinalProject World!");
+        Console.WriteLine("Welcome to the Disc Golf Caddy Program!");
+        Menu menu = new();
+        menu.Options();
     }
 }
