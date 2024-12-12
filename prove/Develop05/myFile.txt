@@ -1,0 +1,4 @@
+temple,,50
+school,pass classes,1000
+Homework,Do it,200
+readings,read the readings for school,20
