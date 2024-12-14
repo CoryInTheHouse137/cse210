@@ -7,6 +7,11 @@ public class ThrowComputer
 
     public void ComputeDisc()
     {
+        
+
+
+
+
 
     }
 

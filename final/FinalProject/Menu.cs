@@ -23,7 +23,9 @@ public class Menu
                 
                     break;
                 case "2":
-                
+                    HolePlay holePlay = new();
+                    holePlay.PromptHole();
+                    
                     break;
                 case "3":
 

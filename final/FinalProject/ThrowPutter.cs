@@ -1,4 +1,4 @@
-public class ThrowPutter
+public class ThrowPutter : DiscSelect
 {
     private string _throwPutter;
 }

@@ -1,28 +1,28 @@
 public class DiscSelect
 {
-    private List<string> _disc;
 
-    private int _speed;
-    private int _glide;
-    private int _stability;
-    private int _fade;
+    private string _driver;
+    private string _midrange;
+    private string _putter;
+    private string _stability;
 
-
-    public void GetDisc()
+    public void Driver(string driver, string stability)
     {
-
+        _driver = driver;
+        _stability = stability;
     }
 
-    public void StatCompiler()
+    public void Midrange(string midrange, string stability1)
     {
-
+        _midrange = midrange;
+        _stability = stability1;
     }
 
-    public void DiscSelector()
+    public void Putter(string putter,string stability2)
     {
-        
+        _putter = putter;
+        _stability = stability2;
     }
-
 
 
 

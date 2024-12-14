@@ -1,4 +1,6 @@
-public class Midrange
+public class Midrange : DiscSelect
 {
-    private string _midrange;
+    
+
+
 }
